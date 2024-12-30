@@ -1,0 +1,23 @@
+.pageButton {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 12px;
+    margin-right:12px;
+    text-align: center;
+    padding: 5px;
+    
+  
+}
+
+.pageButton:hover {
+    color: #ffffff;
+  background-color: rgba(39, 39, 42, 0.5);
+}
+
+.pagination {
+    font-size: 20px;
+    text-align: center;
+}

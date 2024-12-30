@@ -1,0 +1,135 @@
+.scrollContainer {
+  max-height: 80%;
+  overflow-y: auto;
+  width: 95%;
+  padding: 1rem;
+  border-radius: 8px;
+
+}
+
+.resultsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  align-items: center;
+  padding-right: 1rem;
+  min-height: 100px;
+  border: 1px solid #3f3f46;
+  font-size: 22px;
+  background-color: rgba(39, 39, 42, 0.5);
+  border-radius: 0.75rem;
+  transition: background-color .1s ease;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.resultsContainer:hover {
+  background-color: rgba(39, 39, 42, 0.7);
+}
+
+
+.imgAndModel {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #E0E0E0;
+  font-weight: 500;
+  list-style: none;
+  font-size: 26px;
+  width: 450px;
+
+
+}
+
+
+.noResults {
+  text-align: center;
+  color: #E0E0E0;
+  font-size: 1.1rem;
+  padding: 2rem;
+  background-color: #f7f7da48;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid #FF6B6B;
+}
+
+.brandModel {
+  font-weight: 600;
+  margin-bottom: 12px;
+
+}
+
+.tagsContainer {
+  color: #f2f2f2ac;
+  font-size: .52em;
+  font-weight: 600;
+
+}
+
+.style,
+.license,
+.weight {
+  border: 1px solid #52525b;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.budget {
+  color: #c1ff6b9f;
+  min-width: 50px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+
+.imgContainer {
+  width: 400px;
+  height: 200px;
+  min-height: 100px;
+  max-height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+@media (max-width:1224px) {
+  .results {
+    padding: 10px;
+    margin: 10px 0;
+
+  }
+
+  .imgAndModel {
+    width: 900px;
+  }
+
+  .results {
+    width: 200px;
+  }
+  .budget {
+    margin: 15px 0;
+    display: flex;
+    margin-left: 35%;
+  }
+  .resultsContainer {
+    padding-right: 0;
+  }
+
+}
+@media (max-width:453px) {
+  .imgContainer {
+   
+    background-size: cover;
+    width: 100%;
+  }
+
+}

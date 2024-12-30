@@ -1,0 +1,20 @@
+.scrollContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 95%;
+  padding: 1rem;
+
+}
+
+.noResults {
+  text-align: center;
+  color: #d8d8d8;
+  font-size: 1.5em;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  
+}

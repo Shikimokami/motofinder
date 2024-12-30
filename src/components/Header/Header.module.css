@@ -1,0 +1,117 @@
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    background-color: #0b0b0d;
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid #27272a;
+
+}
+
+
+.headerContent {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.icons {
+    width: 99px;
+    transition: all 500ms;
+}
+
+
+
+.icons:hover {
+    transform: scale(1.2, 1.2);
+    transform: rotate(-15deg) translateY(-8px);
+}
+
+@media (max-width:900px) {
+    .icons {
+        min-width: 62px;
+        width: 63px;
+    }
+
+}
+
+@media (max-width:400px) {
+    .icons {
+        min-width: 40px;
+    }
+
+}
+
+.headerH1 {
+    font-weight: 700;
+    font-size: 66px;
+    color: #d8d8d8;
+    line-height: 1.2;
+
+}
+
+@media (max-width:900px) {
+    .headerH1 {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width:400px) {
+    .headerH1 {
+        font-size: 24px;
+    }
+
+}
+
+.bikeColor {
+    color: white;
+}
+
+.headerButton {
+    right: 0;
+    padding: 15px 34px;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #383e3b;
+    letter-spacing: 1px;
+    border: 1px solid white;
+    border-radius: 9px;
+    background-color: #d8d8d8;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+@media (max-width:900px) {
+    .headerButton {
+        position: relative;
+        padding: 10px 23px;
+        font-size: 13px;
+        margin-right: 15px;
+
+    }
+
+
+}
+
+@media (max-width:400px) {
+    .headerButton {
+        position: relative;
+        padding: 8px 10px;
+        font-size: 13px;
+        margin-right: 15px;
+
+    }
+
+}
+
+.headerButton:hover {
+    background-color: #f7f7daca;
+    border: 1px solid #f7f7daca;
+    transform: scale(1.087);
+}
