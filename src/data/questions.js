@@ -38,7 +38,7 @@ export const questions = [
     options: [
       { id: "6000", label: "3000€ - 6000€" },
       { id: "10000", label: "6000€ - 10000€" },
-      { id: "other", label: "Sin" },
+      { id: "other", label: "Sin límite" },
 
     ],
   },

@@ -7,7 +7,7 @@
 .progressBar {
     width: 90%;
     height: 8px;
-    background-color: #e0e0e036;
+    background-color: #e7e7e72c;
     border-radius: 15px;
     overflow: hidden;
     margin: 0px auto;
@@ -15,7 +15,7 @@
 
 .progress {
     height: 100%;
-    background-color: #f6f6c361;
+    background-color: #27e6adea;
     transition: width 0.7s ease-in-out;
     border-radius: 15px;
 }

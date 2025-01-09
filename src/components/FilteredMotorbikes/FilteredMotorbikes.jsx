@@ -17,7 +17,7 @@ export default function FilteredMotorbikes({ answers }) {
   ];
 
   const budgetRanges = {
-    3000: { min: 1000, max: 3000 },
+    3000: { min: 1000, max: 3000 }, 
     6000: { min: 3000, max: 6000 },
     10000: { min: 6000, max: 10000 },
   };
